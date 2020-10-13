@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    let tips = ["Dream of mice", "Make some origami", "Get the dog juggling"]
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            ForEach(self.tips, id: \.self){ tip in
+                VStack{
+                    Image("meditate")
+                        .resizable()
+                        .scaledToFit()
+                    Text("Cat relaxation tip numbre:\(tip)")
+                }
+            }            
+        }
     }
 }
 
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+#endif
