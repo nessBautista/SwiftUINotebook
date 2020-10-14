@@ -75,7 +75,3 @@ struct Stacks01_Previews: PreviewProvider {
     }
   }
 }
-
-extension Color {
-  static let catPurple = Color(red: 128/255, green: 94/255, blue: 158/255)
-}

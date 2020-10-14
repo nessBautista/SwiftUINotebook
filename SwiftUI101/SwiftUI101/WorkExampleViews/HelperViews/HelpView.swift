@@ -30,16 +30,16 @@ struct HelpView: View {
       Spacer()
       .layoutPriority(1)
     }
-    .background(Image("Team")
-      .renderingMode(.original)
-      .resizable()
-      .scaledToFill()
-      .opacity(1)
-      .overlay(Color.rayWenderlichGreen)
-      .blendMode(.multiply)
-      .blur(radius: 1))
-      
-      .edgesIgnoringSafeArea(.all)
+//    .background(Image("Team")
+//      .renderingMode(.original)
+//      .resizable()
+//      .scaledToFill()
+//      .opacity(1)
+//      .overlay(Color.rayWenderlichGreen)
+//      .blendMode(.multiply)
+//      .blur(radius: 1))
+//
+//      .edgesIgnoringSafeArea(.all)
   }
   
 }
