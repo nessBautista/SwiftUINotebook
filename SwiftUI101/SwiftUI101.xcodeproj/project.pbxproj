@@ -33,6 +33,14 @@
 		2AE857AA2537762A00970B44 /* ContentView07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857A92537762A00970B44 /* ContentView07.swift */; };
 		2AE857AF2537766800970B44 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857AE2537766800970B44 /* BookListView.swift */; };
 		2AE857B42537776E00970B44 /* KittySnackPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857B32537776E00970B44 /* KittySnackPicker.swift */; };
+		2AE857BC2537A01100970B44 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857BB2537A01100970B44 /* Box.swift */; };
+		2AE857C42537A06700970B44 /* Colors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857C32537A06700970B44 /* Colors+Extensions.swift */; };
+		2AE857C92537A0AC00970B44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857C82537A0AC00970B44 /* User.swift */; };
+		2AE857D72537A26000970B44 /* RecommendedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857D62537A26000970B44 /* RecommendedRow.swift */; };
+		2AE857DC2537A36D00970B44 /* ContentView00.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857DB2537A36D00970B44 /* ContentView00.swift */; };
+		2AE857E12537A82F00970B44 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857E02537A82F00970B44 /* SettingsView.swift */; };
+		2AE857EC2537AE1400970B44 /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857EB2537AE1400970B44 /* BooksView.swift */; };
+		2AE857F12537AE7A00970B44 /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857F02537AE7A00970B44 /* BookRow.swift */; };
 		2AFFA0D42536312B0009B982 /* ContentView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA0D32536312B0009B982 /* ContentView01.swift */; };
 		2AFFA0E7253634130009B982 /* RelaxationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA0E6253634130009B982 /* RelaxationTip.swift */; };
 /* End PBXBuildFile section */
@@ -87,6 +95,14 @@
 		2AE857A92537762A00970B44 /* ContentView07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView07.swift; sourceTree = "<group>"; };
 		2AE857AE2537766800970B44 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		2AE857B32537776E00970B44 /* KittySnackPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittySnackPicker.swift; sourceTree = "<group>"; };
+		2AE857BB2537A01100970B44 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		2AE857C32537A06700970B44 /* Colors+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Extensions.swift"; sourceTree = "<group>"; };
+		2AE857C82537A0AC00970B44 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2AE857D62537A26000970B44 /* RecommendedRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedRow.swift; sourceTree = "<group>"; };
+		2AE857DB2537A36D00970B44 /* ContentView00.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView00.swift; sourceTree = "<group>"; };
+		2AE857E02537A82F00970B44 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2AE857EB2537AE1400970B44 /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		2AE857F02537AE7A00970B44 /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
 		2AFFA0D32536312B0009B982 /* ContentView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView01.swift; sourceTree = "<group>"; };
 		2AFFA0E6253634130009B982 /* RelaxationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxationTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,11 +169,11 @@
 		2A678E722535EFD8000D74B3 /* SwiftUI101 */ = {
 			isa = PBXGroup;
 			children = (
+				2AE857BA2537A00300970B44 /* Utilities */,
 				2A6577F525365B6E00375A51 /* BasicComponents */,
 				2AFFA0DA2536335E0009B982 /* WorkExampleViews */,
 				2AFFA0D92536334E0009B982 /* Models */,
 				2A678E732535EFD8000D74B3 /* SwiftUI101App.swift */,
-				2A678E752535EFD8000D74B3 /* ContentView.swift */,
 				2A678E772535EFDA000D74B3 /* Assets.xcassets */,
 				2A678E7C2535EFDA000D74B3 /* Info.plist */,
 				2A678E792535EFDA000D74B3 /* Preview Content */,
@@ -191,12 +207,38 @@
 			path = SwiftUI101UITests;
 			sourceTree = "<group>";
 		};
+		2AE857B82537914800970B44 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				2AE8579A25375F6500970B44 /* BookDetailView.swift */,
+				2AE8579F253761D000970B44 /* BookView.swift */,
+				2AE857A4253769C900970B44 /* HelpView.swift */,
+				2AE857AE2537766800970B44 /* BookListView.swift */,
+				2AE857B32537776E00970B44 /* KittySnackPicker.swift */,
+				2AE857D62537A26000970B44 /* RecommendedRow.swift */,
+				2AE857E02537A82F00970B44 /* SettingsView.swift */,
+				2AE857EB2537AE1400970B44 /* BooksView.swift */,
+				2AE857F02537AE7A00970B44 /* BookRow.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		2AE857BA2537A00300970B44 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2AE857BB2537A01100970B44 /* Box.swift */,
+				2AE857C32537A06700970B44 /* Colors+Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		2AFFA0D92536334E0009B982 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				2AFFA0E6253634130009B982 /* RelaxationTip.swift */,
 				2A6577E6253653AD00375A51 /* Treat.swift */,
 				2A6577F02536593300375A51 /* Book.swift */,
+				2AE857C82537A0AC00970B44 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -204,18 +246,16 @@
 		2AFFA0DA2536335E0009B982 /* WorkExampleViews */ = {
 			isa = PBXGroup;
 			children = (
+				2AE857B82537914800970B44 /* HelperViews */,
+				2A678E752535EFD8000D74B3 /* ContentView.swift */,
+				2AE857DB2537A36D00970B44 /* ContentView00.swift */,
 				2AFFA0D32536312B0009B982 /* ContentView01.swift */,
 				2A6577D725364EA200375A51 /* ContentView02.swift */,
 				2A6577DC2536515300375A51 /* ContentView03.swift */,
 				2A6577E12536531100375A51 /* ContentView04.swift */,
 				2A6577EB253658F900375A51 /* ContentView05.swift */,
 				2AE8579525375BF500970B44 /* ContentView06.swift */,
-				2AE8579A25375F6500970B44 /* BookDetailView.swift */,
-				2AE8579F253761D000970B44 /* BookView.swift */,
-				2AE857A4253769C900970B44 /* HelpView.swift */,
 				2AE857A92537762A00970B44 /* ContentView07.swift */,
-				2AE857AE2537766800970B44 /* BookListView.swift */,
-				2AE857B32537776E00970B44 /* KittySnackPicker.swift */,
 			);
 			path = WorkExampleViews;
 			sourceTree = "<group>";
@@ -351,26 +391,34 @@
 			files = (
 				2AFFA0D42536312B0009B982 /* ContentView01.swift in Sources */,
 				2A678E762535EFD8000D74B3 /* ContentView.swift in Sources */,
+				2AE857EC2537AE1400970B44 /* BooksView.swift in Sources */,
 				2A6577FF25365BB800375A51 /* Stacks01.swift in Sources */,
 				2A65780225365BB800375A51 /* ButtonContentView.swift in Sources */,
 				2AE8579B25375F6500970B44 /* BookDetailView.swift in Sources */,
+				2AE857C92537A0AC00970B44 /* User.swift in Sources */,
 				2AE857AF2537766800970B44 /* BookListView.swift in Sources */,
 				2A6577FD25365BB800375A51 /* StateExContentView.swift in Sources */,
 				2AFFA0E7253634130009B982 /* RelaxationTip.swift in Sources */,
 				2A6577D825364EA200375A51 /* ContentView02.swift in Sources */,
+				2AE857F12537AE7A00970B44 /* BookRow.swift in Sources */,
 				2A6577E22536531100375A51 /* ContentView04.swift in Sources */,
 				2A678E742535EFD8000D74B3 /* SwiftUI101App.swift in Sources */,
 				2AE857A5253769C900970B44 /* HelpView.swift in Sources */,
 				2A6577E7253653AD00375A51 /* Treat.swift in Sources */,
+				2AE857DC2537A36D00970B44 /* ContentView00.swift in Sources */,
+				2AE857E12537A82F00970B44 /* SettingsView.swift in Sources */,
 				2AE8579625375BF500970B44 /* ContentView06.swift in Sources */,
+				2AE857BC2537A01100970B44 /* Box.swift in Sources */,
 				2A6577FE25365BB800375A51 /* ZStackContentView.swift in Sources */,
 				2A65780125365BB800375A51 /* ImageContentView.swift in Sources */,
 				2A65780825365C3200375A51 /* TextContentView.swift in Sources */,
 				2A6577EC253658F900375A51 /* ContentView05.swift in Sources */,
 				2AE857AA2537762A00970B44 /* ContentView07.swift in Sources */,
 				2A6577F12536593300375A51 /* Book.swift in Sources */,
+				2AE857D72537A26000970B44 /* RecommendedRow.swift in Sources */,
 				2AE857B42537776E00970B44 /* KittySnackPicker.swift in Sources */,
 				2A6577DD2536515300375A51 /* ContentView03.swift in Sources */,
+				2AE857C42537A06700970B44 /* Colors+Extensions.swift in Sources */,
 				2A65780325365BB800375A51 /* Stacks02.swift in Sources */,
 				2AE857A0253761D000970B44 /* BookView.swift in Sources */,
 			);

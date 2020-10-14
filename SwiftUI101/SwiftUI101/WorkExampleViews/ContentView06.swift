@@ -18,7 +18,7 @@ struct ContentView06: View {
                     HStack{
                         ForEach(Book.demoBooks){ book in
                             GeometryReader{proxy in
-                                
+                                /*
                                 NavigationLink(destination: BookDetailView(book:book)){
                                     BookView(book: book, proxy: proxy)
                                 }
@@ -36,6 +36,7 @@ struct ContentView06: View {
                                 .padding(.vertical)
                                 .shadow(radius: 3)
                                 .rotation3DEffect(Angle(degrees: Double(proxy.frame(in: .global).midX) / 25), axis:(x:-4, y:-3, z:-3))
+                                */
                             }
                             .frame(width: 200, height: 300)
                         }

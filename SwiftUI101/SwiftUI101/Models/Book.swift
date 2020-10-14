@@ -7,9 +7,16 @@
 import SwiftUI
 
 struct Book: Identifiable {
-  var id = UUID()
-  var title: String
-  var imageName: String
+    var id = UUID()
+    var title: String
+    var imageName: String
+    var isLiked = false
+}
+
+extension Book: Equatable {
+  static func == (lhs: Book, rhs: Book) -> Bool {
+    return lhs.id == rhs.id
+  }
 }
 
 extension Book {

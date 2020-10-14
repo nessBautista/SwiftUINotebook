@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  ContentView00.swift
 //  SwiftUI101
 //
-//  Created by Nestor Javier Hernandez on 10/13/20.
+//  Created by Nestor Javier Hernandez on 10/14/20.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView00: View {
     let tips = ["Dream of mice", "Make some origami", "Get the dog juggling"]
     var body: some View {
         VStack{
@@ -18,15 +18,15 @@ struct ContentView: View {
                         .scaledToFit()
                     Text("Cat relaxation tip numbre:\(tip)")
                 }
-            }            
+            }
         }
     }
 }
 
 #if DEBUG
-struct ContentView_Previews: PreviewProvider {
+struct ContentView00_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView00()
     }
 }
 #endif

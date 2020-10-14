@@ -40,9 +40,3 @@ struct ZStackContentView_Previews: PreviewProvider {
         ZStackContentView()
     }
 }
-
-// Everyone's favorite color
-extension Color {
-  static let rayWenderlichGreen = Color(red: 21/255, green: 132/255, blue: 67/255)
-}
-
