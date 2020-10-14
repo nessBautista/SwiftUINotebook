@@ -26,6 +26,10 @@
 		2A678E7B2535EFDA000D74B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A678E7A2535EFDA000D74B3 /* Preview Assets.xcassets */; };
 		2A678E862535EFDB000D74B3 /* SwiftUI101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A678E852535EFDB000D74B3 /* SwiftUI101Tests.swift */; };
 		2A678E912535EFDB000D74B3 /* SwiftUI101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A678E902535EFDB000D74B3 /* SwiftUI101UITests.swift */; };
+		2AE8579625375BF500970B44 /* ContentView06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8579525375BF500970B44 /* ContentView06.swift */; };
+		2AE8579B25375F6500970B44 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8579A25375F6500970B44 /* BookDetailView.swift */; };
+		2AE857A0253761D000970B44 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8579F253761D000970B44 /* BookView.swift */; };
+		2AE857A5253769C900970B44 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857A4253769C900970B44 /* HelpView.swift */; };
 		2AFFA0D42536312B0009B982 /* ContentView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA0D32536312B0009B982 /* ContentView01.swift */; };
 		2AFFA0E7253634130009B982 /* RelaxationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA0E6253634130009B982 /* RelaxationTip.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +77,10 @@
 		2A678E8C2535EFDB000D74B3 /* SwiftUI101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A678E902535EFDB000D74B3 /* SwiftUI101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI101UITests.swift; sourceTree = "<group>"; };
 		2A678E922535EFDB000D74B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE8579525375BF500970B44 /* ContentView06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView06.swift; sourceTree = "<group>"; };
+		2AE8579A25375F6500970B44 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		2AE8579F253761D000970B44 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		2AE857A4253769C900970B44 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		2AFFA0D32536312B0009B982 /* ContentView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView01.swift; sourceTree = "<group>"; };
 		2AFFA0E6253634130009B982 /* RelaxationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxationTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -195,6 +203,10 @@
 				2A6577DC2536515300375A51 /* ContentView03.swift */,
 				2A6577E12536531100375A51 /* ContentView04.swift */,
 				2A6577EB253658F900375A51 /* ContentView05.swift */,
+				2AE8579525375BF500970B44 /* ContentView06.swift */,
+				2AE8579A25375F6500970B44 /* BookDetailView.swift */,
+				2AE8579F253761D000970B44 /* BookView.swift */,
+				2AE857A4253769C900970B44 /* HelpView.swift */,
 			);
 			path = WorkExampleViews;
 			sourceTree = "<group>";
@@ -332,12 +344,15 @@
 				2A678E762535EFD8000D74B3 /* ContentView.swift in Sources */,
 				2A6577FF25365BB800375A51 /* Stacks01.swift in Sources */,
 				2A65780225365BB800375A51 /* ButtonContentView.swift in Sources */,
+				2AE8579B25375F6500970B44 /* BookDetailView.swift in Sources */,
 				2A6577FD25365BB800375A51 /* StateExContentView.swift in Sources */,
 				2AFFA0E7253634130009B982 /* RelaxationTip.swift in Sources */,
 				2A6577D825364EA200375A51 /* ContentView02.swift in Sources */,
 				2A6577E22536531100375A51 /* ContentView04.swift in Sources */,
 				2A678E742535EFD8000D74B3 /* SwiftUI101App.swift in Sources */,
+				2AE857A5253769C900970B44 /* HelpView.swift in Sources */,
 				2A6577E7253653AD00375A51 /* Treat.swift in Sources */,
+				2AE8579625375BF500970B44 /* ContentView06.swift in Sources */,
 				2A6577FE25365BB800375A51 /* ZStackContentView.swift in Sources */,
 				2A65780125365BB800375A51 /* ImageContentView.swift in Sources */,
 				2A65780825365C3200375A51 /* TextContentView.swift in Sources */,
@@ -345,6 +360,7 @@
 				2A6577F12536593300375A51 /* Book.swift in Sources */,
 				2A6577DD2536515300375A51 /* ContentView03.swift in Sources */,
 				2A65780325365BB800375A51 /* Stacks02.swift in Sources */,
+				2AE857A0253761D000970B44 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
