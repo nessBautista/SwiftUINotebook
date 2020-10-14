@@ -12,7 +12,7 @@ struct ContentView04: View {
     @State private var isOn = false
     @State private var textValue = String()
     
-    let treats = Treat.demoTreats
+    let treats = Treat.treats
     
     var body: some View {
         NavigationView {
@@ -22,7 +22,7 @@ struct ContentView04: View {
                 Section{
                     Picker(selection: $selectedSnackIndex, label: Text("Snack Type")){
                         ForEach(0..<self.treats.count) {
-                            Text(self.treats[$0].name).tag($0 )
+                            Text(verbatim: self.treats[$0].name).tag($0 )
                         }
                     }
                 }

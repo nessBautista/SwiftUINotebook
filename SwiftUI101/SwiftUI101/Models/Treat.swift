@@ -16,7 +16,7 @@ struct Treat: Identifiable {
 }
 
 extension Treat {
-  static let demoTreats = [
+  static let treats = [
     Treat(name: "Fish Cakes", imageName: "FlyingFish", description: "Lots of fish, lots of cakes!"),
     Treat(name: "Mice Cream", imageName: "creature-square-mouse", description: "Every kitty's favorite flavored Ice Cream"),
     Treat(name: "Croissant", imageName: "food-pastry-croissant", description: "Seems like cats wouldn't like them, but they do!"),

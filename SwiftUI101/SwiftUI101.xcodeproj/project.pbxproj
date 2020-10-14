@@ -30,6 +30,9 @@
 		2AE8579B25375F6500970B44 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8579A25375F6500970B44 /* BookDetailView.swift */; };
 		2AE857A0253761D000970B44 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE8579F253761D000970B44 /* BookView.swift */; };
 		2AE857A5253769C900970B44 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857A4253769C900970B44 /* HelpView.swift */; };
+		2AE857AA2537762A00970B44 /* ContentView07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857A92537762A00970B44 /* ContentView07.swift */; };
+		2AE857AF2537766800970B44 /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857AE2537766800970B44 /* BookListView.swift */; };
+		2AE857B42537776E00970B44 /* KittySnackPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE857B32537776E00970B44 /* KittySnackPicker.swift */; };
 		2AFFA0D42536312B0009B982 /* ContentView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA0D32536312B0009B982 /* ContentView01.swift */; };
 		2AFFA0E7253634130009B982 /* RelaxationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFFA0E6253634130009B982 /* RelaxationTip.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +84,9 @@
 		2AE8579A25375F6500970B44 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
 		2AE8579F253761D000970B44 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		2AE857A4253769C900970B44 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		2AE857A92537762A00970B44 /* ContentView07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView07.swift; sourceTree = "<group>"; };
+		2AE857AE2537766800970B44 /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
+		2AE857B32537776E00970B44 /* KittySnackPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittySnackPicker.swift; sourceTree = "<group>"; };
 		2AFFA0D32536312B0009B982 /* ContentView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView01.swift; sourceTree = "<group>"; };
 		2AFFA0E6253634130009B982 /* RelaxationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxationTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,6 +213,9 @@
 				2AE8579A25375F6500970B44 /* BookDetailView.swift */,
 				2AE8579F253761D000970B44 /* BookView.swift */,
 				2AE857A4253769C900970B44 /* HelpView.swift */,
+				2AE857A92537762A00970B44 /* ContentView07.swift */,
+				2AE857AE2537766800970B44 /* BookListView.swift */,
+				2AE857B32537776E00970B44 /* KittySnackPicker.swift */,
 			);
 			path = WorkExampleViews;
 			sourceTree = "<group>";
@@ -345,6 +354,7 @@
 				2A6577FF25365BB800375A51 /* Stacks01.swift in Sources */,
 				2A65780225365BB800375A51 /* ButtonContentView.swift in Sources */,
 				2AE8579B25375F6500970B44 /* BookDetailView.swift in Sources */,
+				2AE857AF2537766800970B44 /* BookListView.swift in Sources */,
 				2A6577FD25365BB800375A51 /* StateExContentView.swift in Sources */,
 				2AFFA0E7253634130009B982 /* RelaxationTip.swift in Sources */,
 				2A6577D825364EA200375A51 /* ContentView02.swift in Sources */,
@@ -357,7 +367,9 @@
 				2A65780125365BB800375A51 /* ImageContentView.swift in Sources */,
 				2A65780825365C3200375A51 /* TextContentView.swift in Sources */,
 				2A6577EC253658F900375A51 /* ContentView05.swift in Sources */,
+				2AE857AA2537762A00970B44 /* ContentView07.swift in Sources */,
 				2A6577F12536593300375A51 /* Book.swift in Sources */,
+				2AE857B42537776E00970B44 /* KittySnackPicker.swift in Sources */,
 				2A6577DD2536515300375A51 /* ContentView03.swift in Sources */,
 				2A65780325365BB800375A51 /* Stacks02.swift in Sources */,
 				2AE857A0253761D000970B44 /* BookView.swift in Sources */,
