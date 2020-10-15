@@ -12,7 +12,8 @@ struct ContentView: View {
     @State var selectedBook: Book? = nil
     @State var books = Box(Book.demoBooks)
     
-    @State private var user: User = User.exampleUser
+    @EnvironmentObject private var user: User
+    
     var body: some View {
         NavigationView{
             ZStack {

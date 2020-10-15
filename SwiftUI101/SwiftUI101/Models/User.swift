@@ -11,7 +11,7 @@ class User: ObservableObject {
   
   var imageName: String
   var name: String
-  @Published var likedBooks: [Book]
+  @Published var likedBooks: [Book] 
   
   init(name: String, imageName: String, likedBooks: [Book] = []) {
     self.name = name
