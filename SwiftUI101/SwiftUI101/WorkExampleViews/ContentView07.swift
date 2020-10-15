@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView07: View {
-    @State var books:[Book] = Book.demoBooks
+    @State var books = Book.demoBooks
+    @ObservedObject var user:User
+    
     var body: some View {
         TabView {
-            BookListView(books: $books)
+            BookListView(books: $books, user:user)
                 .tabItem {
                     Image(systemName: "square.stack.fill")
                     Text(verbatim: "Books")
@@ -29,6 +31,6 @@ struct ContentView07: View {
 
 struct ContentView07_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView07(books: Book.demoBooks)
+        ContentView07(books: Book.demoBooks, user: User.exampleUser)
     }
 }

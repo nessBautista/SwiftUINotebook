@@ -10,6 +10,9 @@ import SwiftUI
 struct ContentView06: View {
     //keep track of the sheet presentation
     @State private var isPresented = false
+    @State var books = Box(Book.demoBooks)
+    @ObservedObject var user: User
+    
     var body: some View {
         
         NavigationView {
@@ -18,8 +21,8 @@ struct ContentView06: View {
                     HStack{
                         ForEach(Book.demoBooks){ book in
                             GeometryReader{proxy in
-                                /*
-                                NavigationLink(destination: BookDetailView(book:book)){
+                                
+                                NavigationLink(destination: BookDetailView(book:$books.value[books.value.indices.randomElement()!], user: user)){
                                     BookView(book: book, proxy: proxy)
                                 }
                                 .background(
@@ -36,7 +39,7 @@ struct ContentView06: View {
                                 .padding(.vertical)
                                 .shadow(radius: 3)
                                 .rotation3DEffect(Angle(degrees: Double(proxy.frame(in: .global).midX) / 25), axis:(x:-4, y:-3, z:-3))
-                                */
+                                
                             }
                             .frame(width: 200, height: 300)
                         }
@@ -65,6 +68,6 @@ struct ContentView06: View {
 
 struct ContentView06_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView06()
+        ContentView06(user: User.exampleUser)
     }
 }

@@ -20,7 +20,7 @@ struct ContentView: View {
                     RecommendedRow(book: $books.value[books.value.indices.randomElement()!])
                     
                     ScrollView(.horizontal, showsIndicators:false){
-                        BooksView(books: $books.value)
+                        BooksView(books: $books.value, user:user)
                     }.shadow(color: .black, radius:10, x: 20, y:20)
                 }
                 

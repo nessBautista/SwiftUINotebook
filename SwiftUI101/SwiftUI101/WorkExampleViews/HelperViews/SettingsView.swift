@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SettingsView: View {
-    var user:User
+    @ObservedObject var user:User
     var body: some View {
         NavigationView{
             List {

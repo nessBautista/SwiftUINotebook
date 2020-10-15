@@ -10,14 +10,14 @@ import SwiftUI
 
 struct BookRow: View {
   
-  @Binding var book: Book
-    
-  var proxy: GeometryProxy
+    @Binding var book: Book
+    @ObservedObject var user:User
+    var proxy: GeometryProxy
   
-  var body: some View {
+    var body: some View {
     
-    NavigationLink(destination: BookDetailView(book: $book)) {
-      
+        NavigationLink(destination: BookDetailView(book: $book, user:user)) {
+       
       VStack {
         Text(book.title)
           .fontWeight(.bold)
